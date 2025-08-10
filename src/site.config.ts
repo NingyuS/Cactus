@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
 	// Meta property, found in src/components/BaseHead.astro L:42
 	ogLocale: "zh-CN",
 	// Used to construct the meta title property found in src/components/BaseHead.astro L:11, and webmanifest name found in astro.config.ts L:42
-	title: "仙人掌主题",
+	title: "凝雨谷林堂",
 };
 
 // Used to generate links in both the Header & Footer.
@@ -36,11 +36,11 @@ export const menuLinks: { path: string; title: string }[] = [
 	},
 	{
 		path: "/posts/",
-		title: "博客",
+		title: "随笔",
 	},
 	{
 		path: "/notes/",
-		title: "笔记",
+		title: "札记",
 	},
 ];
 
